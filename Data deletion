@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminación de Datos | Meta Ads Atletas</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #FAFAFA;
+            --text: #1A1A1A;
+            --muted: #6B7280;
+            --accent: #1877F2;
+            --card: #FFFFFF;
+            --border: #E5E7EB;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 3rem 2.5rem;
+        }
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        .app-name {
+            color: var(--accent);
+            font-weight: 500;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+        .updated {
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        p {
+            color: #374151;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        .steps {
+            background: #F9FAFB;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        .step {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            align-items: flex-start;
+        }
+        .step:last-child { margin-bottom: 0; }
+        .step-number {
+            background: var(--accent);
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .step-text {
+            font-size: 0.95rem;
+            color: #374151;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .highlight {
+            background: #EFF6FF;
+            border-left: 3px solid var(--accent);
+            padding: 1rem 1.25rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+            color: #1E40AF;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 2rem 1.25rem; }
+            h1 { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-name">Meta Ads Atletas</div>
+        <h1>Eliminación de Datos de Usuario</h1>
+        <p class="updated">Última actualización: 18 de marzo de 2026</p>
+
+        <p>En Meta Ads Atletas respetamos tu privacidad y tu derecho a controlar tus datos personales. Si deseas eliminar la información que nuestra aplicación ha recopilado a través de Facebook, puedes hacerlo de las siguientes maneras:</p>
+
+        <h2>Opción 1: Eliminar desde la configuración de Facebook</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-text">Inicia sesión en tu cuenta de Facebook y ve a <strong>Configuración y privacidad > Configuración</strong>.</div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-text">Selecciona <strong>Aplicaciones y sitios web</strong> en el menú lateral.</div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-text">Busca <strong>Meta Ads Atletas</strong> en la lista de aplicaciones activas.</div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-text">Haz clic en <strong>Eliminar</strong> y confirma que deseas eliminar toda la información asociada.</div>
+            </div>
+        </div>
+
+        <h2>Opción 2: Solicitar eliminación directamente</h2>
+        <p>Puedes enviarnos un correo electrónico a <a href="mailto:contacto@metaadsatletas.com">contacto@metaadsatletas.com</a> con el asunto "Solicitud de eliminación de datos". Incluye el nombre completo asociado a tu cuenta de Facebook para que podamos identificar y eliminar tu información.</p>
+
+        <div class="highlight">
+            <strong>Plazo de procesamiento:</strong> Tu solicitud será procesada en un máximo de 30 días hábiles. Recibirás una confirmación por correo electrónico una vez que tus datos hayan sido eliminados por completo.
+        </div>
+
+        <h2>¿Qué datos se eliminan?</h2>
+        <p>Al procesar tu solicitud, eliminaremos toda la información personal que hayamos recopilado a través de la integración con Facebook, incluyendo tu nombre, correo electrónico, identificador de usuario y cualquier dato de interacción almacenado.</p>
+
+        <h2>Contacto</h2>
+        <p>Para cualquier consulta relacionada con la eliminación de datos, escríbenos a: <a href="mailto:contacto@metaadsatletas.com">contacto@metaadsatletas.com</a></p>
+
+        <div class="footer">&copy; 2026 Meta Ads Atletas. Todos los derechos reservados.</div>
+    </div>
+</body>
+</html>
