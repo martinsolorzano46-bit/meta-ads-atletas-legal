@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad | Meta Ads Atletas</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #FAFAFA;
+            --text: #1A1A1A;
+            --muted: #6B7280;
+            --accent: #1877F2;
+            --card: #FFFFFF;
+            --border: #E5E7EB;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 3rem 2.5rem;
+        }
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        .app-name {
+            color: var(--accent);
+            font-weight: 500;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+        .updated {
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        p {
+            color: #374151;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 2rem 1.25rem; }
+            h1 { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-name">Meta Ads Atletas</div>
+        <h1>Política de Privacidad</h1>
+        <p class="updated">Última actualización: 18 de marzo de 2026</p>
+
+        <h2>1. Información que recopilamos</h2>
+        <p>Al utilizar la aplicación Meta Ads Atletas, podemos acceder a información básica de tu perfil público de Facebook, como tu nombre y dirección de correo electrónico, únicamente cuando tú lo autorices de forma explícita a través del proceso de inicio de sesión de Facebook.</p>
+
+        <h2>2. Cómo utilizamos la información</h2>
+        <p>La información recopilada se utiliza exclusivamente para el funcionamiento interno de la aplicación, incluyendo la autenticación de usuarios, la gestión de permisos y la correcta ejecución de las funcionalidades ofrecidas. No utilizamos tu información para fines publicitarios ni la compartimos con terceros para dichos fines.</p>
+
+        <h2>3. Almacenamiento y seguridad</h2>
+        <p>Implementamos medidas de seguridad razonables para proteger tu información personal contra accesos no autorizados, alteración, divulgación o destrucción. Los datos se almacenan en servidores seguros con acceso restringido.</p>
+
+        <h2>4. Compartición de datos con terceros</h2>
+        <p>No vendemos, intercambiamos ni transferimos tu información personal a terceros. Podemos compartir información cuando sea requerido por ley o cuando sea necesario para proteger nuestros derechos legales.</p>
+
+        <h2>5. Tus derechos</h2>
+        <p>Puedes solicitar en cualquier momento el acceso, la rectificación o la eliminación de tus datos personales. Para ejercer estos derechos, puedes contactarnos directamente a través de los canales indicados más abajo.</p>
+
+        <h2>6. Uso de cookies</h2>
+        <p>Esta aplicación puede utilizar cookies o tecnologías similares para mejorar la experiencia del usuario. Puedes configurar tu navegador para rechazar cookies, aunque esto podría limitar algunas funcionalidades.</p>
+
+        <h2>7. Cambios a esta política</h2>
+        <p>Nos reservamos el derecho de actualizar esta política de privacidad en cualquier momento. Cualquier cambio será publicado en esta misma página con la fecha de actualización correspondiente.</p>
+
+        <h2>8. Contacto</h2>
+        <p>Si tienes preguntas sobre esta política de privacidad, puedes contactarnos en: <a href="mailto:contacto@metaadsatletas.com">contacto@metaadsatletas.com</a></p>
+
+        <div class="footer">&copy; 2026 Meta Ads Atletas. Todos los derechos reservados.</div>
+    </div>
+</body>
+</html>
